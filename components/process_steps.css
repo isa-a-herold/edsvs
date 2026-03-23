@@ -1,0 +1,38 @@
+/* COMPONENT: PROCESS STEPS */
+/* <div class="apn-sj1-step-item"> */
+/* <div class="apn-sj1-step-number-box">01</div> */
+/* <div class="apn-sj1-step-content">  */
+
+.apn-sj1-step-item { 
+  display: flex; 
+  gap: 24px; 
+  margin-bottom: 32px; 
+  align-items: flex-start; 
+}
+
+.apn-sj1-step-number-box { 
+  background-color: #020A51; 
+  color: #21E9BE; 
+  width: 50px; 
+  height: 50px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-shrink: 0; 
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 75% 100%, 0 100%); 
+  font-weight: 700; 
+  font-size: 18px;
+}
+
+.apn-sj1-step-content h5 { 
+  margin: 0; 
+  font-size: 18px; 
+  font-weight: 700; 
+  color: #020A51; 
+}
+
+.apn-sj1-step-content p { 
+  margin: 5px 0 0; 
+  color: #020A51; 
+  line-height: 1.5;
+}

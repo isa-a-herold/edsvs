@@ -1,0 +1,44 @@
+/* --- EXPERT QUOTE BLOCK --- */
+/* <div class="apn-sj1-quote-container"><span class="apn-sj1-quote-mark">&ldquo;</span> */
+/* <p class="apn-sj1-quote-text">The most successful Appian developers don't just build for current requirements.</p> */
+/* <span class="apn-sj1-quote-attribution">Senior Success Consultant</span></div> */
+
+.apn-sj1-quote-container {
+  position: relative;
+  padding: 40px;
+  margin: 64px auto;
+  text-align: center;
+  background-color: #F8F9FA; /* Light Grey Tint */
+  border-radius: 8px;
+}
+
+.apn-sj1-quote-mark {
+  font-family: 'Funnel Sans', sans-serif;
+  font-size: 80px;
+  color: #2322F0; /* Appian Blue */
+  line-height: 1;
+  font-weight: 800;
+  margin-bottom: -20px;
+  display: block;
+  opacity: 0.2;
+}
+
+.apn-sj1-quote-text {
+  font-size: 22px;
+  line-height: 1.5;
+  color: #020A51;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.apn-sj1-quote-attribution {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #2322F0;
+  font-weight: 700;
+}

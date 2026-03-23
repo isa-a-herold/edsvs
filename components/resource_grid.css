@@ -1,0 +1,46 @@
+/* --- RESOURCE HUB: VERTICAL STREAM --- */
+/* <div class="apn-sj1-resource-stream"><a class="apn-sj1-resource-bubble" href="#"> */
+/* <div class="apn-sj1-resource-icon">&nbsp;</div> */
+/* <span class="apn-sj1-resource-text">Appian Documentation: Data Fabric Overview</span> </a> <a class="apn-sj1-resource-bubble" href="#"> */
+/* </div> */
+
+.apn-sj1-resource-stream {
+  margin: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Spacing between bubbles */
+}
+
+.apn-sj1-resource-bubble {
+  display: flex;
+  align-items: center;
+  background-color: #E6FCFF; /* Light Sync Cyan Tint */
+  border: 1px solid #B3F5FF;
+  border-radius: 50px; /* Pill Shape */
+  padding: 12px 24px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-left: 6px solid #21E9BE; /* Stream Teal Accent */
+}
+
+.apn-sj1-resource-bubble:hover {
+  background-color: #D1F9FF;
+  transform: translateX(5px); /* Subtle slide effect */
+  box-shadow: 0 2px 8px rgba(2, 10, 81, 0.1);
+}
+
+.apn-sj1-resource-text {
+  color: #020A51;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+.apn-sj1-resource-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

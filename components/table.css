@@ -1,0 +1,48 @@
+/* --- APPIAN BRAND TABLE --- */
+
+/* <div class="apn-sj1-table-wrapper"> */
+/* <table class="apn-sj1-table"> */
+
+.apn-sj1-table-wrapper {
+  margin: 32px 0;
+  border-radius: 8px;
+  overflow: hidden; /* Clips corners of the table to the radius */
+  border: 1px solid #E1E5E8;
+  box-shadow: 0 4px 12px rgba(2, 10, 81, 0.05);
+}
+
+.apn-sj1-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.apn-sj1-table thead th {
+  background-color: #020A51; /* Appian Dark Blue */
+  color: #2AE3FF; /* Sync Cyan */
+  padding: 16px 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  border: none;
+}
+
+.apn-sj1-table tbody td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #F0F2F4;
+  color: #020A51;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+/* Zebra Striping */
+.apn-sj1-table tbody tr:nth-child(even) {
+  background-color: #F8F9FA; /* Light Grey Tint */
+}
+
+/* Hover State */
+.apn-sj1-table tbody tr:hover {
+  background-color: #E6FCFF; /* Light Sync Cyan Tint on Hover */
+  transition: background-color 0.2s ease;
+}
