@@ -1,4 +1,7 @@
 /* WARNING BOX */
+/* <div class="apn-sj1-warning-box"> */
+/* <div><strong>Hard Requirement:</strong> Environment access must be requested 48 hours prior to the live session.</div> */
+/* </div> */
 
 .apn-sj1-warning-box { 
   display: flex; 
