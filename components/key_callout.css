@@ -5,11 +5,11 @@
 
 .apn-sj1-key-callout { 
   background-color: #020A51; 
-  color: #FFFFFF !important; 
+  color: #FFFFFF; 
   padding: 40px; 
   margin: 48px 0; 
   border-left: 6px solid #2AE3FF; 
-  font-family: 'Funnel Sans', sans-serif !important; 
+  font-family: 'Funnel Sans', sans-serif; 
 }
 
 .apn-sj1-white-text {
@@ -19,6 +19,6 @@
 }
 
 .apn-sj1-highlight-cyan { 
-  color: #2AE3FF !important; 
+  color: #2AE3FF; 
   font-weight: 700; 
 }

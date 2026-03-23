@@ -19,7 +19,7 @@
 
 .apn-sj1-table thead th {
   background-color: #020A51; /* Appian Dark Blue */
-  color: #2AE3FF !important; /* Sync Cyan */
+  color: #2AE3FF; /* Sync Cyan */
   padding: 16px 20px;
   font-weight: 700;
   text-transform: uppercase;

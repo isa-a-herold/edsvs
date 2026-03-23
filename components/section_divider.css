@@ -8,12 +8,12 @@
 .apn-sj1-divider-container { 
   margin: 64px 0 24px 0; 
   width: 100%; 
-  font-family: 'Funnel Sans', sans-serif !important; 
+  font-family: 'Funnel Sans', sans-serif; 
 }
 
 .apn-sj1-divider-tab { 
   background-color: #2322F0; 
-  color: #FFFFFF !important; 
+  color: #FFFFFF; 
   padding: 6px 24px 6px 16px; 
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%); 
   display: inline-block; font-size: 10px; 

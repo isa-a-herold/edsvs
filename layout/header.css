@@ -22,11 +22,11 @@
   font-size: 14px; 
   text-transform: uppercase; 
   letter-spacing: 0.25em; 
-  color: #2AE3FF !important; 
+  color: #2AE3FF; 
   margin-bottom: 12px; 
   position: relative; 
   z-index: 2; 
-  font-family: 'Funnel Sans', sans-serif !important; 
+  font-family: 'Funnel Sans', sans-serif; 
 }
   
 .apn-sj1-lesson-title { 
@@ -36,8 +36,8 @@
   margin: 0; 
   position: relative; 
   z-index: 2; 
-  color: #FFFFFF !important; 
-  font-family: 'Funnel Sans', sans-serif !important; 
+  color: #FFFFFF; 
+  font-family: 'Funnel Sans', sans-serif; 
 }
   
 .apn-sj1-node-accent { 
