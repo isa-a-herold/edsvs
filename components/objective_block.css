@@ -1,0 +1,27 @@
+/* -- OBJECTIVE BLOCK -- */
+/* <div class="apn-sj1-obj-container"> */
+/* <h3 class="apn-sj1-obj-heading">What you'll learn</h3> */
+/* <div class="apn-sj1-obj-item">Analyze data patterns to drive process automation.</div> */
+/* </div> */
+
+.apn-sj1-obj-container { 
+  background-color: #F8F9FA; 
+  border-top: 4px solid #9F38FA; 
+  padding: 32px; margin: 40px 0; 
+  font-family: 'Funnel Sans', sans-serif !important; 
+}
+
+.apn-sj1-obj-heading {
+  text-transform: uppercase; 
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-bottom: 20px;
+}
+
+.apn-sj1-obj-item { 
+  display: flex; 
+  gap: 12px; 
+  margin-bottom: 16px; 
+  align-items: flex-start; 
+  color: #020A51; 
+}
