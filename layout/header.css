@@ -1,0 +1,53 @@
+/* -- LESSON HEADER -- */
+/* <div class="apn-sj1-hero-header"> */
+/* <div class="apn-sj1-hero-content"> */
+/* <p class="apn-sj1-eyebrow">Estimated Time: 15 Minutes</p> */
+/* <h1 class="apn-sj1-lesson-title">Lesson Title Goes Here</h1> */
+/* </div><div class="apn-sj1-node-accent">&nbsp;</div></div> */
+
+.apn-sj1-hero-header { 
+  background-color: #2322F0; 
+  padding: 60px 5%; 
+  position: relative; 
+  overflow: hidden; 
+  border-bottom: 8px solid #020A51; 
+  margin-bottom: 40px; 
+  display: flex; 
+  align-items: center; 
+  min-height: 220px; 
+}
+  
+.apn-sj1-eyebrow { 
+  font-weight: 600; 
+  font-size: 14px; 
+  text-transform: uppercase; 
+  letter-spacing: 0.25em; 
+  color: #2AE3FF !important; 
+  margin-bottom: 12px; 
+  position: relative; 
+  z-index: 2; 
+  font-family: 'Funnel Sans', sans-serif !important; 
+}
+  
+.apn-sj1-lesson-title { 
+  font-weight: 700; 
+  font-size: 36px; 
+  line-height: 1.1; 
+  margin: 0; 
+  position: relative; 
+  z-index: 2; 
+  color: #FFFFFF !important; 
+  font-family: 'Funnel Sans', sans-serif !important; 
+}
+  
+.apn-sj1-node-accent { 
+  position: absolute; 
+  right: -50px; 
+  bottom: -50px; 
+  width: 200px; 
+  height: 200px; 
+  background-color: #020A51; 
+  opacity: 0.4; 
+  clip-path: polygon(100% 0, 100% 100%, 0 100%); 
+  z-index: 1; 
+}
