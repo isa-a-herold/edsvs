@@ -1,7 +1,7 @@
 /* -- OBJECTIVE BLOCK -- */
 /* <div class="apn-sj1-obj-container"> */
 /* <h3 class="apn-sj1-obj-heading">What you'll learn</h3> */
-/* <div class="apn-sj1-obj-item">Analyze data patterns to drive process automation.</div> */
+/* <ul><li>Analyze data patterns to drive process automation.</li></ul> */
 /* </div> */
 
 .apn-sj1-obj-container { 
@@ -18,10 +18,46 @@
   margin-bottom: 20px;
 }
 
-.apn-sj1-obj-item { 
-  display: flex; 
-  gap: 12px; 
-  margin-bottom: 16px; 
-  align-items: flex-start; 
-  color: #020A51; 
+.apn-sj1-obj-container {
+  background-color: #F8F9FA;
+  border-top: 4px solid #9F38FA; /* Quantum Violet */
+  padding: 32px;
+  margin: 40px auto;
+  max-width: 600px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(2, 10, 81, 0.05);
+}
+
+.apn-sj1-obj-header {
+  color: #020A51;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.apn-sj1-obj-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.apn-sj1-obj-container li {
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: #020A51;
+}
+
+/* Stream Teal Checkmark */
+.apn-sj1-obj-container li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #21E9BE; /* Stream Teal */
+  font-weight: 900;
+  font-size: 18px;
 }
